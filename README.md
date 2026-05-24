@@ -21,6 +21,14 @@ Instead of using separate weight matrices for consecutive linear transformations
 
 The method applies this stagewise weight-sharing strategy to both the **Focus stage (ResNet-50)** and the **Detect stage (ResNeXt-101-32x8d)** of the [Focus-and-Detect](https://spacing.itu.edu.tr/focusanddetect.html) pipeline. 
 
+## Results
+
+HalF&D delivers significant parameter and model-size reductions while maintaining competitive detection accuracy:
+* **Focus Stage:** Achieves 47.9% mAP@50 with a 47.3% reduction in parameters, shrinking the model from 260 MB to 180 MB.
+* **Detect Stage:** Reaches 32.2% mAP with a 70.9% reduction in parameters, shrinking the model from 790 MB to 285 MB.
+
+Overall, the framework achieves an impressive total model-size reduction of over 60% while preserving robust performance on the VisDrone dataset, particularly for dominant vehicle classes.
+
 ## Reference
 
 A. N. Yılmaz, O. C. Koyun, and B. U. Töreyin, "HalF&D: A Parameter Efficient Small Object Detection Approach," *2026 IEEE International Symposium on Circuits and Systems (ISCAS)*, 2026.
