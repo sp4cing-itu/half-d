@@ -8,7 +8,7 @@ Small-object detection in aerial imagery is a challenging problem due to large v
 
 ## Web
 
-* epapers2.org/iscas2026/ESR/paper_details.php?paper_id=1770
+* [ISCAS 2026 Paper Details](https://epapers2.org/iscas2026/ESR/paper_details.php?paper_id=1770)
 
 ## Introduction
 
@@ -19,6 +19,9 @@ Instead of using separate weight matrices for consecutive linear transformations
 
 The method applies this stagewise weight-sharing strategy to both the **Focus stage (ResNet-50)** and the **Detect stage (ResNeXt-101-32x8d)** of the Focus-and-Detect pipeline.
 
+## Reference
 
-########
-Signal Processing for Computational Intelligence Research Group (SP4CING).
+A. N. Yılmaz, O. C. Koyun, and B. U. Töreyin, "HalF&D: A Parameter Efficient Small Object Detection Approach," *2026 IEEE International Symposium on Circuits and Systems (ISCAS)*, 2026.
+
+
+* Signal Processing for Computational Intelligence Research Group (SP4CING).
