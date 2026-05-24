@@ -8,8 +8,7 @@ Small-object detection in aerial imagery is a challenging problem due to large v
 
 ## Web
 
-* [Proje veya web sayfası linki buraya gelecek]
-* [Makale linki buraya gelecek]
+* epapers2.org/iscas2026/ESR/paper_details.php?paper_id=1770
 
 ## Introduction
 
