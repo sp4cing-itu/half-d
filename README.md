@@ -15,13 +15,15 @@ Small-object detection in aerial imagery is a challenging problem due to large v
 **What the method does:**
 Instead of using separate weight matrices for consecutive linear transformations in every bottleneck block, the method uses a **single weight matrix ($W$)** per stage. It uses the matrix $W$ for the first transformation (reduction) and its **transpose ($W^T$)** for the second transformation (expansion).
 
+* Original shared matrix idea comes from: [halvit](https://github.com/sp4cing-itu/halvit)
+
 ## Method
 
-The method applies this stagewise weight-sharing strategy to both the **Focus stage (ResNet-50)** and the **Detect stage (ResNeXt-101-32x8d)** of the Focus-and-Detect pipeline.
+The method applies this stagewise weight-sharing strategy to both the **Focus stage (ResNet-50)** and the **Detect stage (ResNeXt-101-32x8d)** of the [Focus-and-Detect](https://spacing.itu.edu.tr/focusanddetect.html) pipeline. 
 
 ## Reference
 
 A. N. Yılmaz, O. C. Koyun, and B. U. Töreyin, "HalF&D: A Parameter Efficient Small Object Detection Approach," *2026 IEEE International Symposium on Circuits and Systems (ISCAS)*, 2026.
 
 
-* Signal Processing for Computational Intelligence Research Group (SP4CING).
+Signal Processing for Computational Intelligence Research Group (SP4CING).
